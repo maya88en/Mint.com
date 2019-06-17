@@ -58,9 +58,22 @@ body{
     padding-bottom: 500px;/*don`t forgot delete before release*/
 }
 
-div{
-    display: inline-block;
-    background: blue;
-    width: 400px;
-    height: 400px;
+.container{
+	background: #eceef1; 
+}
+.header_container{
+	padding: 10px 0 10px 0;
+}
+.register_sidebar{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 20px;
+}
+.left_sidebar,
+.right_sidebar{
+	padding-left: 12px;
+	color: #4c4c4c;
+}
+.left_sidebar>p{
+	margin:	0;
 }
