@@ -144,6 +144,7 @@ i{
     background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.27/images/ecosystem_logos_new.png);
 }
 
+
 .under_logo,
 .mint,
 .quickbox,
@@ -253,6 +254,7 @@ i{
 		transform: scale(1,1);
 	}
 }
+
 /*=== END HEADER ====*/
 
 /*=== FORM START ====*/
