@@ -260,7 +260,6 @@ i{
 /*=== FORM START ====*/
 
 .form_section{
-	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
 	margin: auto;
@@ -308,4 +307,72 @@ h1{
 	line-height: 1.7rem;
 	margin: 0;
 }
-*/
+
+/*===FORM BODY=====*/
+.form_body{
+	margin: 0;
+}
+
+.form_fields{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 10px;
+	width: 100%;
+}
+.form_fields>fieldset{
+	width: 100%;;
+	margin-bottom: 20px;
+}
+.form_label{
+	width: 100%;
+	font-family: 'Heebo', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	padding: 6px 0 6px 0;
+}
+
+.form_input{
+	width: 100%;
+	border: 1px solid #c7c7c7;
+	border-radius: 3px;
+	padding: 4px 0 4px 0;
+	font-family: 'Heebo', sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+}
+
+.hide_confirm_passworh{
+	display: none;
+}
+/*===END FORM BODY=====*/
+/*=== FORM END ====*/
+
+/*=== FOOTER START ===*/
+.footer_container{
+	padding: 10px 0 10px 0;
+}
+.footer_content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.footer_content>p{
+	text-align: center;
+	color: #4C4C4C;
+	font-family: 'Heebo', sans-serif;
+	font-size: 0.9rem;
+	font-weight: 400;
+	line-height: 1.7rem;
+	margin: 0;
+}
+.footer_content>p a{
+	color: #4C4C4C;
+}
+.footer_content>p a:hover{
+	text-decoration: underline;
+}
+/*=== FOOTER END ===*/

@@ -74,22 +74,62 @@
     <div class="form_section">
         <div class="form_wrap">
             <div class="form_header">
-                <h1>One Account.
-                    <br>
-                Everything Intuit.
+                <h1>Create an Intuit account
                 </h1>
             </div>
             <div class="header_text">
                 <p>
-                    Create an account for all of Intuit`s products including Mint.
+                    One account for everything Intuit, including Mint. 
                     <a href="#" class="header_form_link">Learn more</a>
                 </p>
+            </div>
+            <div class="form_body">
+                <form class="form_fields" action="#" method="POST" name="registration_form">
+                    <fieldset>
+                    <label for="email" class="form_label">Email adress:</label>
+                    <input id="email" class="form_input" name="email" type="text" placeholder="You'll verify this later" value="" required="required" pattern="[A-Za-z0-9]" maxlength="100" title="You'll use this as your user ID">
+                    </fieldset>
+                    <fieldset>
+                    <label for="phone" class="form_label">Phone (recommended)</label>
+                    <input id="phone" class="form_input" name="phone" type="number" placeholder="Helps with lost passwords and security" required="required" pattern="" maxlength="30" title="We strongly recommend adding a phone number. This will help verify your account and keep it safe.">
+                    <span class="phone_">Standard call, messaging or data rates may apply.</span>
+                    </fieldset>
+                    <fieldset>
+                    <label for="password" class="form_label">Password</label>
+                    <input id="password" class="form_input" name="password" type="password" placeholder="Don't reuse an old password" required="required" pattern="" maxlength="50" title="Create a password you`ve never used before. This will help keep your account safe.">
+                    <fieldset class="hide_confirm_passworh">
+                    <label class="hide_confirm_passworh form_label">Confirm password</label>
+                    <input type="text" class="hide_confirm_passworh form_input">
+                    </fieldset>
+
+                    <button class="btn createAccountBtn" type="submit" name="SignUpButton"><span class="white_lock_img"></span> <span class="submit_btn_text">Create account</span></button>
+
+                </form>
             </div>
         </div>
     </div>
     <!--END third logic section with main content : FORM-->
 
     <!--START fourth logic section : FOOTER-->
+    <div class="footer_container">
+        <footer class="footer_content">
+            <p>
+                <a href="#" class="footer_link">Legal</a>
+                <a href="#" class="footer_link">Privacy</a>
+                <a href="#" class="footer_link">Security</a>
+            </p>
+            <p>
+                © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+            </p>
+          
+            <p>
+                Terms and conditions, features, support, pricing, and service options subject to change without notice.
+            </p>
+        </footer>
+    
+    </div>
+
+
      <!--END fourth logic section : FOOTER-->
 
 
