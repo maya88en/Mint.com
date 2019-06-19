@@ -362,12 +362,12 @@ h1{
 }
 .footer_content>p{
 	text-align: center;
-	color: #4C4C4C;
 	font-family: 'Heebo', sans-serif;
 	font-size: 0.9rem;
 	font-weight: 400;
 	line-height: 1.7rem;
 	margin: 0;
+	color: #505050;
 }
 .footer_content>p a{
 	color: #4C4C4C;
@@ -375,4 +375,5 @@ h1{
 .footer_content>p a:hover{
 	text-decoration: underline;
 }
+
 /*=== FOOTER END ===*/
