@@ -82,27 +82,29 @@
                     One account for everything Intuit, including Mint. 
                     <a href="#" class="header_form_link">Learn more</a>
                 </p>
+                <p>
+                    Already have an account? 
+                    <a href="#" class="header_form_link">Sign In</a>
+                </p>
             </div>
             <div class="form_body">
                 <form class="form_fields" action="#" method="POST" name="registration_form">
                     <fieldset>
                     <label for="email" class="form_label">Email adress:</label>
-                    <input id="email" class="form_input" name="email" type="text" placeholder="You'll verify this later" value="" required="required" pattern="[A-Za-z0-9]" maxlength="100" title="You'll use this as your user ID">
+                    <input id="email" class="form_input" name="email" type="text" value="" required="required" pattern="[A-Za-z0-9]" maxlength="100" title="You'll use this as your user ID">
                     </fieldset>
                     <fieldset>
                     <label for="phone" class="form_label">Phone (recommended)</label>
-                    <input id="phone" class="form_input" name="phone" type="number" placeholder="Helps with lost passwords and security" required="required" pattern="" maxlength="30" title="We strongly recommend adding a phone number. This will help verify your account and keep it safe.">
-                    <span class="phone_">Standard call, messaging or data rates may apply.</span>
+                    <input id="phone" class="form_input" name="phone" type="tel" required="required" pattern="" maxlength="30" title="We strongly recommend adding a phone number. This will help verify your account and keep it safe.">
+                    <span class="phone_span">Standard call, messaging or data rates may apply.</span>
                     </fieldset>
                     <fieldset>
                     <label for="password" class="form_label">Password</label>
-                    <input id="password" class="form_input" name="password" type="password" placeholder="Don't reuse an old password" required="required" pattern="" maxlength="50" title="Create a password you`ve never used before. This will help keep your account safe.">
-                    <fieldset class="hide_confirm_passworh">
-                    <label class="hide_confirm_passworh form_label">Confirm password</label>
-                    <input type="text" class="hide_confirm_passworh form_input">
+                    <input id="password" class="form_input" name="password" type="password" required="required" pattern="" maxlength="50" title="Create a password you`ve never used before. This will help keep your account safe.">
                     </fieldset>
-
-                    <button class="btn createAccountBtn" type="submit" name="SignUpButton"><span class="white_lock_img"></span> <span class="submit_btn_text">Create account</span></button>
+                    <button class="btn createAccountBtn" type="submit" name="SignUpButton">
+                            <i class="material-icons">lock_outline</i>
+                            Create Account</button>
 
                 </form>
             </div>

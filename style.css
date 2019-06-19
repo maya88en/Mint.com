@@ -68,7 +68,6 @@ body{
 	display: block;
 	margin: 0;
 	widows: 100%;
-    padding-bottom: 500px; /*DON`T FORGOT DELETE when finish project*/
 }
 
 /*======== main style ==============*/
@@ -344,8 +343,14 @@ h1{
 	font-weight: 400;
 }
 
-.hide_confirm_passworh{
-	display: none;
+.phone_span{
+	font-size: 10px;
+	padding: 5px 0;
+	color: #444;
+}
+.createAccountBtn{
+	width: 100%;
+	font-size: 19px;
 }
 /*===END FORM BODY=====*/
 /*=== FORM END ====*/
@@ -364,7 +369,7 @@ h1{
 	text-align: center;
 	font-family: 'Heebo', sans-serif;
 	font-size: 0.9rem;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 1.7rem;
 	margin: 0;
 	color: #505050;
