@@ -409,6 +409,7 @@ h1{
 }
 .form_section_top_footer,.form_section_bottom_footer>p{
 	font-style: italic;
+	line-height: 1.6;
 	font-family: 'Heebo', sans-serif;
 	font-size: 10px;
 	font-weight: 300;
