@@ -352,6 +352,22 @@ h1{
 	width: 100%;
 	font-size: 19px;
 }
+
+.unlock>span{
+	display: block;
+	width: 12px;
+	position: absolute;
+	top: 20px;
+	right: 10px;
+}
+.unlock>img{
+	min-width: 45%;
+	height: 25px;
+	vertical-align: middle;
+	top: -33px;
+	left: 270px;
+	position: relative;
+}
 /*===END FORM BODY=====*/
 /*=== FORM END ====*/
 
@@ -380,5 +396,21 @@ h1{
 .footer_content>p a:hover{
 	text-decoration: underline;
 }
+.form_section_top_footer{
+	color: #bbb;
+	text-align: center;
+	margin: 15px 0 15px 0;
 
+}
+.form_section_bottom_footer{
+	background: #ececec;
+	margin: 10px 0 10px 0;
+	text-align: center;
+}
+.form_section_top_footer,.form_section_bottom_footer>p{
+	font-style: italic;
+	font-family: 'Heebo', sans-serif;
+	font-size: 10px;
+	font-weight: 300;
+}
 /*=== FOOTER END ===*/
