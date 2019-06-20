@@ -327,8 +327,9 @@ h1{
 .form_label{
 	width: 100%;
 	font-family: 'Heebo', sans-serif;
+	color: #404040;
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 25px;
 	padding: 6px 0 6px 0;
 }
@@ -340,7 +341,7 @@ h1{
 	padding: 4px 0 4px 0;
 	font-family: 'Heebo', sans-serif;
 	font-size: 17px;
-	font-weight: 400;
+	
 }
 
 .phone_span{
@@ -364,9 +365,33 @@ h1{
 	min-width: 45%;
 	height: 25px;
 	vertical-align: middle;
-	top: -33px;
+	top: -30px;
 	left: 270px;
 	position: relative;
+}
+.form_section_top_footer{
+	margin-top: 40px;
+}
+.form_section_top_footer>p{
+	font-style: italic;
+	color: #757575;
+	padding: 0 8px 0 8px;
+	text-align: center;
+	font-family: 'Heebo', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.6;
+}
+.form_section_bottom_footer{
+	background: #eceef1;
+	margin: 32px -30px -30px;
+	padding: 16px;
+
+}
+.form_section_bottom_footer>p{
+	font-family:'Heebo', sans-serif;
+	font-weight: 300;
+	font-size: 10px;
 }
 /*===END FORM BODY=====*/
 /*=== FORM END ====*/
@@ -396,22 +421,8 @@ h1{
 .footer_content>p a:hover{
 	text-decoration: underline;
 }
-.form_section_top_footer{
+.form_section{
+	font-family: italic;
 	color: #bbb;
-	text-align: center;
-	margin: 15px 0 15px 0;
-
-}
-.form_section_bottom_footer{
-	background: #ececec;
-	margin: 10px 0 10px 0;
-	text-align: center;
-}
-.form_section_top_footer,.form_section_bottom_footer>p{
-	font-style: italic;
-	line-height: 1.6;
-	font-family: 'Heebo', sans-serif;
-	font-size: 10px;
-	font-weight: 300;
 }
 /*=== FOOTER END ===*/
