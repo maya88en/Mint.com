@@ -125,7 +125,7 @@ i{
 
 /*===HEADER start ====*/
 .header{
-	padding: 0 11px 0 11px;
+	padding: 0 0 4px 0;
 }
 .header_content{
 	display: flex;
@@ -144,12 +144,15 @@ i{
 }
 
 
-.under_logo,
+.products_row,
 .mint,
 .quickbox,
 .turbotax{
 	display: flex;
 	flex-wrap: wrap;
+}
+.products_row{
+	margin: 0;
 }
 .mint_img,
 .mint_text,
